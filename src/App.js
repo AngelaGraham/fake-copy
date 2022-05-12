@@ -4,6 +4,7 @@ import Home from './components/Home';
 import {Switch, Route} from 'react-router-dom';
 import Products from './components/Products';
 
+//Not create by me, but copied.
 
 function App() {
   return (
@@ -15,7 +16,5 @@ function App() {
       <Route exact path="/products/:id" component={Product}/>
     </Switch>
     </>
-  );
-}
-
-export default App;
+  )
+};
